@@ -1,0 +1,126 @@
+------------ CASE: 1 ------------
+Serial:
+```````
+Average: 132.8
+Std.Dev: 13.2367715555
+Samples: 16.0
+
+Mutex:
+``````
+No of Threads: 1
+Average: 137.4
+Std.Dev: 10.4668789787
+Samples: 9.0
+
+No of Threads: 2
+Average: 209.39
+Std.Dev: 16.9829950601
+Samples: 11.0
+
+No of Threads: 4
+Average: 209.68
+Std.Dev: 11.9332148293
+Samples: 5.0
+
+
+ReadWrite:
+``````````
+No of Threads: 1
+Average: 140.95
+Std.Dev: 13.2278975173
+Samples: 14.0
+
+No of Threads: 2
+Average: 82.55
+Std.Dev: 6.63990842093
+Samples: 10.0
+
+No of Threads: 4
+Average: 76.9
+Std.Dev: 4.73008851648
+Samples: 6.0
+
+------------ CASE: 2 ------------
+Serial:
+```````
+Average: 239.41
+Std.Dev: 12.8339000268
+Samples: 5.0
+
+Mutex:
+``````
+No of Threads: 1
+Average: 242.33
+Std.Dev: 12.4884229217
+Samples: 5.0
+
+No of Threads: 2
+Average: 315.95
+Std.Dev: 21.1485247951
+Samples: 7.0
+
+No of Threads: 4
+Average: 324.61
+Std.Dev: 18.4975537558
+Samples: 5.0
+
+
+ReadWrite:
+``````````
+No of Threads: 1
+Average: 243.96
+Std.Dev: 13.955861156
+Samples: 6.0
+
+No of Threads: 2
+Average: 146.7
+Std.Dev: 13.0604654425
+Samples: 13.0
+
+No of Threads: 4
+Average: 158.32
+Std.Dev: 18.6519855687
+Samples: 22.0
+
+------------ CASE: 3 ------------
+Serial:
+```````
+Average: 579.22
+Std.Dev: 19.291794456
+Samples: 2.0
+
+Mutex:
+``````
+No of Threads: 1
+Average: 607.98
+Std.Dev: 40.9142932719
+Samples: 7.0
+
+No of Threads: 2
+Average: 683.59
+Std.Dev: 39.9403836039
+Samples: 6.0
+
+No of Threads: 4
+Average: 711.96
+Std.Dev: 50.4090179522
+Samples: 8.0
+
+
+ReadWrite:
+``````````
+No of Threads: 1
+Average: 622.44
+Std.Dev: 57.9204121309
+Samples: 14.0
+
+No of Threads: 2
+Average: 586.76
+Std.Dev: 60.8459090364
+Samples: 17.0
+
+No of Threads: 4
+Average: 582.37
+Std.Dev: 50.0316374655
+Samples: 12.0
+
