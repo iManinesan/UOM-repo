@@ -32,3 +32,5 @@
 
 3. To get the average, standard deviation and no of samples, execute the Python script
     python execute.py
+   In Linux, we can save the results in a txt file using this command in shell
+    python execute.py > results.txt	
