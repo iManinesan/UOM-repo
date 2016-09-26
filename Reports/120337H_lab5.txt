@@ -1,0 +1,8 @@
+create view faculty AS select ID,name,dept_name from instructor;
+SELECT name FROM `faculty` WHERE dept_name="Biology";
+create view department_info AS select dept_name,building from department;
+create view instructor_loc AS select faculty.name,department_info.building from department_info,faculty where faculty.dept_name=department_info.dept_name;
+UPDATE `department_info` SET `building`='sumanadasa' WHERE dept_name='Comp. Sci.';
+alter table instructor add image BLOB after name;
+SELECT course_name, title as Prereq_name from (SELECT title as course_name,prereq_id FROM `course`,`prereq` WHERE course.course_id = prereq.course_id) as table_temp,course WHERE table_temp.prereq_id = course.course_id;
+SELECT student.name as stu_name,instructor.name as ins_name FROM `advisor`,`student`,`instructor` WHERE student.ID = advisor.s_ID and instructor.ID = advisor.i_ID;
