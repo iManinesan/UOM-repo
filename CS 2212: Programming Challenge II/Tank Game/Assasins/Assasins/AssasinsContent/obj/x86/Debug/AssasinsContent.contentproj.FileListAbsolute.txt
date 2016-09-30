@@ -1,2 +1,0 @@
-H:\Riyafa's\Educational stuff\uni\4th Semester\Programming Challenge II\Assasins\Assasins\AssasinsContent\obj\x86\Debug\AssasinsContent.contentprojResolveAssemblyReference.cache
-C:\Users\Riyafas\Desktop\Assasins\Assasins\AssasinsContent\obj\x86\Debug\AssasinsContent.contentprojResolveAssemblyReference.cache
