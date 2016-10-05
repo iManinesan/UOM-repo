@@ -1,0 +1,9 @@
+create view Fail_Grades as select * from takes where grade= 'F';
+select id from ((SELECT ID,count(grade) as countFail from `takes` where grade = 'F' group by ID) as fails) where countFail >=2;
+create table grade_points (grade varchar(15),points int(5), primary key(grade,points));
+insert into grade_points values ('A','10'),('B','8'),('C','6'),('D','4');
+select ID,sum(grade_points.points) as GP from `takes`,`grade_points` where substring(takes.grade,1,1)=grade_points.grade group by ID;
+create view faculty AS select ID,name,dept_name from instructor;
+create user 'uomcse'@'localhost' identified by 'password';grant select on university.student to 'uomcse'@'localhost';
+grant select on faculty to 'uomcse'@'localhost';
+
