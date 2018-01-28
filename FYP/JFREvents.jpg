@@ -1,0 +1,1675 @@
+************* 1 *************
+Event         - Lost Events
+Description   - Event emitted when thread local buffers can't be written fast enough to disk.
+ID            - 2
+Color         - java.awt.Color[r=64,g=178,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+memoryDropped
+******************************
+************* 2 *************
+Event         - Java Thread Start
+Description   - 
+ID            - 3
+Color         - java.awt.Color[r=128,g=255,b=128]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+javalangthread
+******************************
+************* 3 *************
+Event         - Java Thread End
+Description   - 
+ID            - 4
+Color         - java.awt.Color[r=64,g=128,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+javalangthread
+******************************
+************* 4 *************
+Event         - Java Thread Sleep
+Description   - 
+ID            - 5
+Color         - java.awt.Color[r=155,g=129,b=219]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+time
+******************************
+************* 5 *************
+Event         - Java Thread Park
+Description   - 
+ID            - 6
+Color         - java.awt.Color[r=128,g=128,b=128]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+klass
+(klass.package)
+timeout
+address
+******************************
+************* 6 *************
+Event         - Java Monitor Blocked
+Description   - 
+ID            - 7
+Color         - java.awt.Color[r=255,g=109,b=100]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+klass
+(klass.package)
+previousOwner
+address
+******************************
+************* 7 *************
+Event         - Java Monitor Wait
+Description   - Waiting on a Java monitor
+ID            - 8
+Color         - java.awt.Color[r=255,g=231,b=91]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+klass
+(klass.package)
+notifier
+(notifier.javaThreadId)
+(notifier.osThreadId)
+timeout
+timedOut
+address
+******************************
+************* 8 *************
+Event         - Class Load
+Description   - 
+ID            - 9
+Color         - java.awt.Color[r=255,g=0,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+loadedClass
+(loadedClass.package)
+definingClassLoader
+(definingClassLoader.package)
+initiatingClassLoader
+(initiatingClassLoader.package)
+******************************
+************* 9 *************
+Event         - Class Unload
+Description   - 
+ID            - 10
+Color         - java.awt.Color[r=0,g=255,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+unloadedClass
+(unloadedClass.package)
+definingClassLoader
+(definingClassLoader.package)
+******************************
+************* 10 *************
+Event         - Heap Summary
+Description   - 
+ID            - 11
+Color         - java.awt.Color[r=230,g=64,b=98]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+when
+heapSpace:start
+heapSpace:committedEnd
+heapSpace:committedSize
+heapSpace:reservedEnd
+heapSpace:reservedSize
+heapUsed
+******************************
+************* 11 *************
+Event         - Perm Gen Summary
+Description   - 
+ID            - 12
+Color         - java.awt.Color[r=230,g=64,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+when
+permSpace:start
+permSpace:committedEnd
+permSpace:committedSize
+permSpace:reservedEnd
+permSpace:reservedSize
+objectSpace:start
+objectSpace:end
+objectSpace:used
+objectSpace:size
+******************************
+************* 12 *************
+Event         - ParallelScavengeHeap Summary
+Description   - 
+ID            - 13
+Color         - java.awt.Color[r=64,g=230,b=110]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+when
+oldSpace:start
+oldSpace:committedEnd
+oldSpace:committedSize
+oldSpace:reservedEnd
+oldSpace:reservedSize
+oldObjectSpace:start
+oldObjectSpace:end
+oldObjectSpace:used
+oldObjectSpace:size
+youngSpace:start
+youngSpace:committedEnd
+youngSpace:committedSize
+youngSpace:reservedEnd
+youngSpace:reservedSize
+edenSpace:start
+edenSpace:end
+edenSpace:used
+edenSpace:size
+fromSpace:start
+fromSpace:end
+fromSpace:used
+fromSpace:size
+toSpace:start
+toSpace:end
+toSpace:used
+toSpace:size
+******************************
+************* 13 *************
+Event         - Garbage Collection
+Description   - Garbage collection performed by the JVM
+ID            - 14
+Color         - java.awt.Color[r=213,g=0,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+name
+cause
+sumOfPauses
+longestPause
+******************************
+************* 14 *************
+Event         - Parallel Old Garbage Collection
+Description   - Extra information specific to Parallel Old Garbage Collections
+ID            - 15
+Color         - java.awt.Color[r=64,g=230,b=144]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+densePrefix
+******************************
+************* 15 *************
+Event         - Young Garbage Collection
+Description   - Extra information specific to Young Garbage Collections
+ID            - 16
+Color         - java.awt.Color[r=255,g=128,b=128]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+tenuringThreshold
+******************************
+************* 16 *************
+Event         - Old Garbage Collection
+Description   - Extra information specific to Old Garbage Collections
+ID            - 17
+Color         - java.awt.Color[r=128,g=0,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+******************************
+************* 17 *************
+Event         - G1 Garbage Collection
+Description   - Extra information specific to G1 Garbage Collections
+ID            - 18
+Color         - java.awt.Color[r=64,g=178,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+type
+******************************
+************* 18 *************
+Event         - Evacuation Info
+Description   - 
+ID            - 19
+Color         - java.awt.Color[r=64,g=230,b=76]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+cSetRegions
+cSetUsedBefore
+cSetUsedAfter
+allocationRegions
+allocRegionsUsedBefore
+allocRegionsUsedAfter
+bytesCopied
+regionsFreed
+******************************
+************* 19 *************
+Event         - GC Reference Processing
+Description   - Total count of processed references during GC
+ID            - 20
+Color         - java.awt.Color[r=87,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+type
+count
+******************************
+************* 20 *************
+Event         - Object Count After GC
+Description   - 
+ID            - 21
+Color         - java.awt.Color[r=87,g=230,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+class
+(class.package)
+count
+totalSize
+******************************
+************* 21 *************
+Event         - Promotion Failed
+Description   - Promotion of an object failed
+ID            - 22
+Color         - java.awt.Color[r=255,g=0,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+data:objectCount
+data:firstSize
+data:smallestSize
+data:totalSize
+thread
+(thread.javaThreadId)
+(thread.osThreadId)
+******************************
+************* 22 *************
+Event         - Evacuation Failed
+Description   - Evacuation of an object failed
+ID            - 23
+Color         - java.awt.Color[r=255,g=0,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+data:objectCount
+data:firstSize
+data:smallestSize
+data:totalSize
+******************************
+************* 23 *************
+Event         - Concurrent Mode Failure
+Description   - Concurrent Mode failed
+ID            - 24
+Color         - java.awt.Color[r=64,g=230,b=212]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+******************************
+************* 24 *************
+Event         - GC Phase Pause
+Description   - 
+ID            - 25
+Color         - java.awt.Color[r=255,g=0,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+name
+******************************
+************* 25 *************
+Event         - GC Phase Pause Level 1
+Description   - 
+ID            - 26
+Color         - java.awt.Color[r=230,g=203,b=69]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+name
+******************************
+************* 26 *************
+Event         - GC Phase Pause Level 2
+Description   - 
+ID            - 27
+Color         - java.awt.Color[r=69,g=138,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+name
+******************************
+************* 27 *************
+Event         - GC Phase Pause Level 3
+Description   - 
+ID            - 28
+Color         - java.awt.Color[r=230,g=69,b=226]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+gcId
+name
+******************************
+************* 28 *************
+Event         - Compilation
+Description   - 
+ID            - 29
+Color         - java.awt.Color[r=230,g=64,b=98]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+method
+(method.class)
+(method.package)
+compileID
+compileLevel
+succeded
+isOsr
+codeSize
+inlinedBytes
+******************************
+************* 29 *************
+Event         - Compiler Phase
+Description   - 
+ID            - 30
+Color         - java.awt.Color[r=64,g=230,b=178]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+phase
+compileID
+phaseLevel
+******************************
+************* 30 *************
+Event         - Compilation Failure
+Description   - 
+ID            - 31
+Color         - java.awt.Color[r=230,g=114,b=69]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+failure
+compileID
+******************************
+************* 31 *************
+Event         - Sweep Code Cache
+Description   - 
+ID            - 32
+Color         - java.awt.Color[r=230,g=167,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+sweepIndex
+sweepFractionIndex
+sweptCount
+flushedCount
+markedCount
+zombifiedCount
+******************************
+************* 32 *************
+Event         - Clean Code Cache
+Description   - Clean code cache from oldest methods
+ID            - 33
+Color         - java.awt.Color[r=230,g=64,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+disconnectedCount
+madeNonEntrantCount
+******************************
+************* 33 *************
+Event         - Code Cache Full
+Description   - 
+ID            - 34
+Color         - java.awt.Color[r=155,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+startAddress
+commitedTopAddress
+reservedTopAddress
+entryCount
+methodCount
+adaptorCount
+unallocatedCapacity
+largestFreeBlock
+fullCount
+******************************
+************* 34 *************
+Event         - VM Operation
+Description   - Execution of a VM Operation
+ID            - 35
+Color         - java.awt.Color[r=230,g=133,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+operation
+safepoint
+blocking
+caller
+(caller.javaThreadId)
+(caller.osThreadId)
+******************************
+************* 35 *************
+Event         - Allocation in new TLAB
+Description   - Allocation in new Thread Local Allocation Buffer
+ID            - 36
+Color         - java.awt.Color[r=255,g=128,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+class
+(class.package)
+allocationSize
+tlabSize
+******************************
+************* 36 *************
+Event         - Allocation outside TLAB
+Description   - Allocation outside Thread Local Allocation Buffers
+ID            - 37
+Color         - java.awt.Color[r=128,g=128,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+class
+(class.package)
+allocationSize
+******************************
+************* 37 *************
+Event         - JVM Information
+Description   - Description of JVM and the Java application
+ID            - 38
+Color         - java.awt.Color[r=121,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+jvmName
+jvmVersion
+jvmArguments
+jvmFlags
+javaArguments
+jvmStartTime
+******************************
+************* 38 *************
+Event         - OS Information
+Description   - 
+ID            - 39
+Color         - java.awt.Color[r=64,g=76,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+osVersion
+******************************
+************* 39 *************
+Event         - Initial System Property
+Description   - System Property at JVM start.
+ID            - 40
+Color         - java.awt.Color[r=64,g=178,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+key
+value
+******************************
+************* 40 *************
+Event         - Initial Environment Variable
+Description   - 
+ID            - 41
+Color         - java.awt.Color[r=224,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+key
+value
+******************************
+************* 41 *************
+Event         - System Process
+Description   - 
+ID            - 42
+Color         - java.awt.Color[r=230,g=201,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+pid
+commandLine
+******************************
+************* 42 *************
+Event         - CPU Information
+Description   - 
+ID            - 43
+Color         - java.awt.Color[r=230,g=64,b=133]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+cpu
+description
+sockets
+cores
+hwThreads
+******************************
+************* 43 *************
+Event         - CPU Time Stamp Counter
+Description   - 
+ID            - 44
+Color         - java.awt.Color[r=64,g=212,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+fastTimeEnabled
+fastTimeAutoEnabled
+fastTimeConversionAdjustments
+timeToFastTimeFactor
+timeToInitialize
+timeToFastTimeOffset
+osFrequency
+fastTimeFrequency
+currentOsTime
+currentOsTimeConverted
+firstFastTimeReference
+secondFastTimeReference
+******************************
+************* 44 *************
+Event         - CPU Load
+Description   - OS CPU Load
+ID            - 45
+Color         - java.awt.Color[r=121,g=230,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+jvmUser
+jvmSystem
+machineTotal
+******************************
+************* 45 *************
+Event         - Thread Context Switch Rate
+Description   - 
+ID            - 46
+Color         - java.awt.Color[r=121,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+switchRate
+******************************
+************* 46 *************
+Event         - Java Thread Statistics
+Description   - 
+ID            - 47
+Color         - java.awt.Color[r=121,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+activeCount
+daemonCount
+accumulatedCount
+peakCount
+******************************
+************* 47 *************
+Event         - Class Loading Statistics
+Description   - 
+ID            - 48
+Color         - java.awt.Color[r=190,g=230,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+loadedClassCount
+unloadedClassCount
+******************************
+************* 48 *************
+Event         - Thread Allocation Statistics
+Description   - 
+ID            - 49
+Color         - java.awt.Color[r=64,g=230,b=110]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+allocated
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+******************************
+************* 49 *************
+Event         - Physical Memory
+Description   - OS Physical Memory
+ID            - 50
+Color         - java.awt.Color[r=230,g=167,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+totalSize
+usedSize
+******************************
+************* 50 *************
+Event         - Method Profiling Sample
+Description   - Snapshot of a threads state
+ID            - 51
+Color         - java.awt.Color[r=204,g=102,b=255]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+state
+******************************
+************* 51 *************
+Event         - Method Sampling Information
+Description   - Information about a specific execution sampling
+ID            - 52
+Color         - java.awt.Color[r=230,g=201,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+sampledThread
+(sampledThread.javaThreadId)
+(sampledThread.osThreadId)
+******************************
+************* 52 *************
+Event         - Thread Dump
+Description   - JFR thread dump event
+ID            - 53
+Color         - java.awt.Color[r=155,g=230,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+result
+******************************
+************* 53 *************
+Event         - Compiler Statistics
+Description   - 
+ID            - 54
+Color         - java.awt.Color[r=64,g=230,b=178]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+compileCount
+bailoutCount
+invalidatedCount
+osrCompileCount
+standardCompileCount
+osrBytesCompiled
+standardBytesCompiled
+nmetodsSize
+nmetodCodeSize
+peakTimeSpent
+totalTimeSpent
+******************************
+************* 54 *************
+Event         - Compiler Configuration
+Description   - 
+ID            - 55
+Color         - java.awt.Color[r=230,g=64,b=201]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+threadCount
+tieredCompilation
+******************************
+************* 55 *************
+Event         - Code Cache Statistics
+Description   - 
+ID            - 56
+Color         - java.awt.Color[r=230,g=64,b=167]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+startAddress
+commitedTopAddress
+reservedTopAddress
+entryCount
+methodCount
+adaptorCount
+unallocatedCapacity
+largestFreeBlock
+fullCount
+******************************
+************* 56 *************
+Event         - Code Cache Configuration
+Description   - 
+ID            - 57
+Color         - java.awt.Color[r=224,g=230,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+initialSize
+reservedSize
+expansionSize
+minBlockLength
+startAddress
+reservedTopAddress
+******************************
+************* 57 *************
+Event         - Code Sweeper Statistics
+Description   - 
+ID            - 58
+Color         - java.awt.Color[r=64,g=230,b=212]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+sweepCount
+cleanCount
+methodReclaimedCount
+totalSweepTime
+totalCleanTime
+peakFractionTime
+peakSweepTime
+peakCleanTime
+******************************
+************* 58 *************
+Event         - Code Sweeper Configuration
+Description   - 
+ID            - 59
+Color         - java.awt.Color[r=230,g=201,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+fractionCount
+sweeperEnabled
+flushingEnabled
+******************************
+************* 59 *************
+Event         - Long Flag
+Description   - 
+ID            - 60
+Color         - java.awt.Color[r=230,g=64,b=167]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+name
+value
+origin
+******************************
+************* 60 *************
+Event         - Unsigned Long Flag
+Description   - 
+ID            - 61
+Color         - java.awt.Color[r=230,g=64,b=201]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+name
+value
+origin
+******************************
+************* 61 *************
+Event         - Double Flag
+Description   - 
+ID            - 62
+Color         - java.awt.Color[r=155,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+name
+value
+origin
+******************************
+************* 62 *************
+Event         - Boolean Flag
+Description   - 
+ID            - 63
+Color         - java.awt.Color[r=190,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+name
+value
+origin
+******************************
+************* 63 *************
+Event         - String Flag
+Description   - 
+ID            - 64
+Color         - java.awt.Color[r=87,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+name
+value
+origin
+******************************
+************* 64 *************
+Event         - Object Count
+Description   - 
+ID            - 65
+Color         - java.awt.Color[r=64,g=230,b=178]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+class
+(class.package)
+count
+totalSize
+******************************
+************* 65 *************
+Event         - GC Configuration
+Description   - The configuration of the garbage collector
+ID            - 66
+Color         - java.awt.Color[r=230,g=64,b=167]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+youngCollector
+oldCollector
+parallelGCThreads
+concurrentGCThreads
+usesDynamicGCThreads
+isExplicitGCConcurrent
+isExplicitGCDisabled
+pauseTarget
+gcTimeRatio
+******************************
+************* 66 *************
+Event         - GC Survivor Configuration
+Description   - The configuration of the survivors of garbage collection
+ID            - 67
+Color         - java.awt.Color[r=230,g=64,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+maxTenuringThreshold
+initialTenuringThreshold
+******************************
+************* 67 *************
+Event         - GC TLAB Configuration
+Description   - The configuration of the Tread Local Allocation Buffers (TLABs)
+ID            - 68
+Color         - java.awt.Color[r=230,g=64,b=98]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+usesTLABs
+minTLABSize
+tlabRefillWasteLimit
+******************************
+************* 68 *************
+Event         - GC Heap Configuration
+Description   - The configuration of the garbage collected heap
+ID            - 69
+Color         - java.awt.Color[r=190,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+minSize
+maxSize
+initialSize
+usesCompressedOops
+compressedOopsMode
+objectAlignment
+heapAddressBits
+******************************
+************* 69 *************
+Event         - GC Young Generation Configuration
+Description   - The configuration of the young generation of the garbage collected heap
+ID            - 70
+Color         - java.awt.Color[r=155,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+minSize
+maxSize
+newRatio
+******************************
+************* 70 *************
+Event         - Flight Recording
+Description   - 
+ID            - 4097
+Color         - java.awt.Color[r=230,g=64,b=133]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+compress
+startTime
+maxSize
+maxAge
+duration
+destination
+name
+id
+******************************
+************* 71 *************
+Event         - Recording Setting
+Description   - 
+ID            - 4098
+Color         - java.awt.Color[r=230,g=64,b=64]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+period
+threshold
+stacktrace
+enabled
+path
+name
+id
+******************************
+************* 72 *************
+Event         - Socket Read
+Description   - Reading data from a socket
+ID            - 4100
+Color         - java.awt.Color[r=0,g=0,b=255]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+bytesRead
+timeout
+port
+address
+host
+******************************
+************* 73 *************
+Event         - Socket Write
+Description   - Writing data to a socket
+ID            - 4101
+Color         - java.awt.Color[r=69,g=210,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+bytesWritten
+port
+address
+host
+******************************
+************* 74 *************
+Event         - File Read
+Description   - Reading data from a file
+ID            - 4102
+Color         - java.awt.Color[r=255,g=192,b=130]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+bytesRead
+path
+******************************
+************* 75 *************
+Event         - File Write
+Description   - Writing data to a file
+ID            - 4103
+Color         - java.awt.Color[r=180,g=90,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+bytesWritten
+path
+******************************
+************* 76 *************
+Event         - Java Exception
+Description   - An exception is thrown
+ID            - 4104
+Color         - java.awt.Color[r=200,g=0,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+thrownClass
+(thrownClass.package)
+message
+******************************
+************* 77 *************
+Event         - Java Error
+Description   - An error is thrown (OutOfMemoryErrors are not shown).
+ID            - 4105
+Color         - java.awt.Color[r=255,g=0,b=0]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+(stackTrace)
+((stackTrace).frame)
+((stackTrace).package)
+((stackTrace).class)
+((stackTrace).method)
+((stackTrace).almostThreadRootframe)
+thrownClass
+(thrownClass.package)
+message
+******************************
+************* 78 *************
+Event         - Throwables
+Description   - Number of throwables
+ID            - 4106
+Color         - java.awt.Color[r=190,g=64,b=230]
+BitField      - 0
+==== Identifiers ====
+(startTime)
+(endTime)
+(duration)
+(producer)
+(producerURI)
+(eventType)
+(eventTypePath)
+(thread)
+((thread).javaThreadId)
+((thread).osThreadId)
+throwables
+******************************
